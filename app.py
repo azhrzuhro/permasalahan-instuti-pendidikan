@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 
 # Load model dan scaler
-model = joblib.load('./model/best_rf.pkl')
-scaler = joblib.load('./model/scaler.pkl')
+model = joblib.load('model/best_rf.pkl')
+scaler = joblib.load('model/scaler.pkl')
 
 # Daftar Course
 course_list = [
